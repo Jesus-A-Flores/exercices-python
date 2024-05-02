@@ -3,3 +3,6 @@ histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir l
 ****
 *********
 ******* '''
+def procedimiento(a):
+  for i in a:
+    print(str(i*'*'))
